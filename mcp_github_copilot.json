@@ -9,7 +9,7 @@
       "description": "Spring Boot MCP server over stdio"
     },
     "spring-mcp-server-demo-sse": {
-      "url": "http://localhost:9090/sse"
+      "url": "http://localhost:8080/sse"
     }
   }
 }
