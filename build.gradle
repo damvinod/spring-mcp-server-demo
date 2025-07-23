@@ -7,6 +7,10 @@ plugins {
 group = 'com.damvinod'
 version = '0.0.1-SNAPSHOT'
 
+jar {
+    enabled = false
+}
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(24)
@@ -31,6 +35,14 @@ dependencies {
 dependencyManagement {
     imports {
         mavenBom "org.springframework.ai:spring-ai-bom:${springAiVersion}"
+    }
+}
+
+tasks.register('downloadDependencies') {
+    doLast {
+        configurations.compileClasspath.files
+        configurations.runtimeClasspath.files
+        println 'Dependencies downloaded.'
     }
 }
 
