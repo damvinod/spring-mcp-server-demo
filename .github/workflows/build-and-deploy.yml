@@ -42,7 +42,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@902fa8ec7d6ecbf8d84d538b9b233a880e428804
         with:
-          images: vinodreddy25/spring-mcp-server-demo
+          images: ${{ secrets.DOCKER_HUB_REGISTRY }}
 
       - name: Build and push Docker image
         id: push
