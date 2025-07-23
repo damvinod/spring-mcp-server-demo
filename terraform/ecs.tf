@@ -47,7 +47,7 @@ module "mcp_service" {
       memory    = 512
       essential = true
       image     = var.docker_image
-      port_mappings = [
+      portMappings = [
         {
           name          = "port-8080"
           containerPort = 8080
