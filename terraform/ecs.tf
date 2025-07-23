@@ -34,6 +34,7 @@ module "mcp_service" {
 
   assign_public_ip     = true
   autoscaling_policies = {}
+  enable_autoscaling   = false
   desired_count        = 1
 
   enable_execute_command    = true
