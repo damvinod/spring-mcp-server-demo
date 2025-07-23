@@ -13,15 +13,15 @@ locals {
 
   tasks_iam_role_statements = [
     {
-      actions = ["ecs:ExecuteCommand"]
-      effect = "Allow"
+      actions   = ["ecs:ExecuteCommand"]
+      effect    = "Allow"
       resources = [module.ecs.cluster_arn]
     }
   ]
   task_exec_iam_statements = [
     {
-      actions = ["logs:CreateLogGroup"]
-      effect = "Allow"
+      actions   = ["logs:CreateLogGroup"]
+      effect    = "Allow"
       resources = ["*"]
     }
   ]
