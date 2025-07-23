@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "spring-mcp-server-demo": {
+      "command": "java",
+      "args": [
+        "-jar",
+        "/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar"
+      ],
+      "description": "Spring Boot MCP server over stdio"
+    }
+  }
+}

@@ -1,0 +1,381 @@
+2025-07-23T13:22:05.626+08:00  INFO 51758 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 51758 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:22:05.627+08:00  INFO 51758 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:22:05.924+08:00  INFO 51758 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:22:05.929+08:00  INFO 51758 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:22:05.929+08:00  INFO 51758 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:22:05.937+08:00  INFO 51758 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:22:05.937+08:00  INFO 51758 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 292 ms
+2025-07-23T13:22:06.156+08:00  INFO 51758 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:22:06.186+08:00  INFO 51758 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:22:06.186+08:00  INFO 51758 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:22:06.186+08:00  INFO 51758 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:22:06.186+08:00  INFO 51758 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:22:06.204+08:00  INFO 51758 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=claude-ai, version=0.1.0]
+2025-07-23T13:22:06.206+08:00  WARN 51758 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-06-18, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:22:06.223+08:00  INFO 51758 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-23T13:22:06.230+08:00  INFO 51758 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Started SpringMcpServerDemoApplication in 0.77 seconds (process running for 0.934)
+2025-07-23T13:25:52.259+08:00  INFO 51758 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T13:25:53.694+08:00  INFO 51802 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 51802 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:25:53.696+08:00  INFO 51802 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:25:54.010+08:00  INFO 51802 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:25:54.016+08:00  INFO 51802 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:25:54.016+08:00  INFO 51802 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:25:54.027+08:00  INFO 51802 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:25:54.027+08:00  INFO 51802 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 315 ms
+2025-07-23T13:25:54.265+08:00  INFO 51802 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:25:54.267+08:00  INFO 51758 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T13:25:54.294+08:00  INFO 51802 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:25:54.294+08:00  INFO 51802 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:25:54.295+08:00  INFO 51802 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:25:54.295+08:00  INFO 51802 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:25:54.315+08:00  INFO 51802 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=claude-ai, version=0.1.0]
+2025-07-23T13:25:54.317+08:00  WARN 51802 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-06-18, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:25:54.335+08:00  INFO 51802 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-23T13:25:54.342+08:00  INFO 51802 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Started SpringMcpServerDemoApplication in 0.809 seconds (process running for 0.977)
+2025-07-23T13:25:58.801+08:00  INFO 51802 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T13:25:59.175+08:00  INFO 51817 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 51817 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:25:59.176+08:00  INFO 51817 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:25:59.468+08:00  INFO 51817 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:25:59.473+08:00  INFO 51817 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:25:59.473+08:00  INFO 51817 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:25:59.482+08:00  INFO 51817 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:25:59.482+08:00  INFO 51817 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 291 ms
+2025-07-23T13:25:59.701+08:00  INFO 51817 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:25:59.732+08:00  INFO 51817 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:25:59.732+08:00  INFO 51817 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:25:59.732+08:00  INFO 51817 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:25:59.732+08:00  INFO 51817 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:25:59.754+08:00  INFO 51817 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=claude-ai, version=0.1.0]
+2025-07-23T13:25:59.755+08:00  WARN 51817 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-06-18, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:25:59.768+08:00  WARN 51817 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-23T13:25:59.774+08:00  INFO 51817 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-23T13:25:59.780+08:00 ERROR 51817 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-23T13:26:00.813+08:00  INFO 51802 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T13:35:12.501+08:00  INFO 51940 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 51940 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:35:12.502+08:00  INFO 51940 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:35:12.793+08:00  INFO 51940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:35:12.799+08:00  INFO 51940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:35:12.799+08:00  INFO 51940 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:35:12.808+08:00  INFO 51940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:35:12.808+08:00  INFO 51940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 290 ms
+2025-07-23T13:35:13.032+08:00  INFO 51940 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:35:13.061+08:00  INFO 51940 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:35:13.061+08:00  INFO 51940 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:35:13.061+08:00  INFO 51940 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:35:13.061+08:00  INFO 51940 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:35:13.079+08:00  INFO 51940 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo, version=1.0.0]
+2025-07-23T13:35:13.080+08:00  WARN 51940 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:35:13.096+08:00  INFO 51940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-23T13:35:13.103+08:00  INFO 51940 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Started SpringMcpServerDemoApplication in 0.762 seconds (process running for 0.926)
+2025-07-23T13:36:27.095+08:00  INFO 51940 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T13:36:27.450+08:00  INFO 51957 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 51957 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:36:27.451+08:00  INFO 51957 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:36:27.772+08:00  INFO 51957 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:36:27.778+08:00  INFO 51957 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:36:27.778+08:00  INFO 51957 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:36:27.787+08:00  INFO 51957 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:36:27.787+08:00  INFO 51957 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 319 ms
+2025-07-23T13:36:28.013+08:00  INFO 51957 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:36:28.042+08:00  INFO 51957 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:36:28.042+08:00  INFO 51957 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:36:28.043+08:00  INFO 51957 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:36:28.043+08:00  INFO 51957 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:36:28.060+08:00  INFO 51957 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo, version=1.0.0]
+2025-07-23T13:36:28.061+08:00  WARN 51957 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:36:28.074+08:00  WARN 51957 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-23T13:36:28.082+08:00  INFO 51957 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-23T13:36:28.087+08:00 ERROR 51957 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-23T13:36:29.104+08:00  INFO 51940 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T13:36:30.299+08:00  INFO 51965 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 51965 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:36:30.299+08:00  INFO 51965 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:36:30.591+08:00  INFO 51965 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:36:30.597+08:00  INFO 51965 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:36:30.598+08:00  INFO 51965 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:36:30.607+08:00  INFO 51965 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:36:30.607+08:00  INFO 51965 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 293 ms
+2025-07-23T13:36:30.837+08:00  INFO 51965 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:36:30.869+08:00  INFO 51965 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:36:30.869+08:00  INFO 51965 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:36:30.869+08:00  INFO 51965 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:36:30.869+08:00  INFO 51965 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:36:30.888+08:00  INFO 51965 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo, version=1.0.0]
+2025-07-23T13:36:30.889+08:00  WARN 51965 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:36:30.906+08:00  INFO 51965 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-23T13:36:30.913+08:00  INFO 51965 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Started SpringMcpServerDemoApplication in 0.776 seconds (process running for 0.94)
+2025-07-23T13:38:54.214+08:00  INFO 52072 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 52072 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:38:54.215+08:00  INFO 52072 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:38:54.667+08:00  INFO 52072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:38:54.673+08:00  INFO 52072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:38:54.673+08:00  INFO 52072 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:38:54.684+08:00  INFO 52072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:38:54.684+08:00  INFO 52072 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 447 ms
+2025-07-23T13:38:54.974+08:00  INFO 52072 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:38:55.010+08:00  INFO 52072 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:38:55.010+08:00  INFO 52072 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:38:55.011+08:00  INFO 52072 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:38:55.011+08:00  INFO 52072 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:38:55.031+08:00  INFO 52072 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo, version=1.0.0]
+2025-07-23T13:38:55.033+08:00  WARN 52072 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:38:55.053+08:00  INFO 52072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-23T13:38:55.060+08:00  INFO 52072 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Started SpringMcpServerDemoApplication in 1.029 seconds (process running for 1.226)
+2025-07-23T13:39:53.514+08:00  INFO 52095 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication using Java 24.0.1 with PID 52095 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/classes/java/main started by vinoddampuru in /Users/vinoddampuru/Workspace/spring-mcp-server-demo)
+2025-07-23T13:39:53.515+08:00  INFO 52095 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:39:53.779+08:00  INFO 52095 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-07-23T13:39:53.785+08:00  INFO 52095 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:39:53.785+08:00  INFO 52095 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:39:53.798+08:00  INFO 52095 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:39:53.798+08:00  INFO 52095 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 268 ms
+2025-07-23T13:39:53.983+08:00  INFO 52095 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:39:54.008+08:00  INFO 52095 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:39:54.008+08:00  INFO 52095 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:39:54.008+08:00  INFO 52095 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:39:54.008+08:00  INFO 52095 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:39:54.033+08:00  INFO 52095 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-07-23T13:39:54.036+08:00  INFO 52095 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Started SpringMcpServerDemoApplication in 0.666 seconds (process running for 0.853)
+2025-07-23T13:41:58.160+08:00  INFO 52072 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T13:41:58.528+08:00  INFO 52114 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 52114 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:41:58.529+08:00  INFO 52114 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:41:58.845+08:00  INFO 52114 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:41:58.850+08:00  INFO 52114 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:41:58.850+08:00  INFO 52114 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:41:58.860+08:00  INFO 52114 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:41:58.861+08:00  INFO 52114 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 313 ms
+2025-07-23T13:41:59.094+08:00  INFO 52114 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:41:59.123+08:00  INFO 52114 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:41:59.123+08:00  INFO 52114 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:41:59.124+08:00  INFO 52114 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:41:59.124+08:00  INFO 52114 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:41:59.141+08:00  INFO 52114 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo, version=1.0.0]
+2025-07-23T13:41:59.143+08:00  WARN 52114 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:41:59.157+08:00  WARN 52114 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-23T13:41:59.165+08:00  INFO 52114 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-23T13:41:59.170+08:00 ERROR 52114 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-23T13:41:59.171+08:00  INFO 52095 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-23T13:41:59.172+08:00  INFO 52095 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-23T13:41:59.172+08:00  INFO 52095 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-23T13:41:59.214+08:00  INFO 52095 --- [http-nio-9090-exec-3] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo-sse, version=1.0.0]
+2025-07-23T13:41:59.215+08:00  WARN 52095 --- [http-nio-9090-exec-3] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:42:00.166+08:00  INFO 52072 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T13:47:35.740+08:00  INFO 52174 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 52174 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:47:35.741+08:00  INFO 52174 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:47:36.036+08:00  INFO 52174 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:47:36.042+08:00  INFO 52174 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:47:36.042+08:00  INFO 52174 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:47:36.051+08:00  INFO 52174 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:47:36.051+08:00  INFO 52174 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 296 ms
+2025-07-23T13:47:36.275+08:00  INFO 52174 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:47:36.305+08:00  INFO 52174 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:47:36.306+08:00  INFO 52174 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:47:36.306+08:00  INFO 52174 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:47:36.306+08:00  INFO 52174 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:47:36.330+08:00  INFO 52174 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo, version=1.0.0]
+2025-07-23T13:47:36.332+08:00  WARN 52174 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:47:36.349+08:00  INFO 52174 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-23T13:47:36.357+08:00  INFO 52174 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Started SpringMcpServerDemoApplication in 0.772 seconds (process running for 0.933)
+2025-07-23T13:48:00.497+08:00  INFO 52174 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T13:48:00.834+08:00  INFO 52181 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 52181 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:48:00.835+08:00  INFO 52181 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:48:01.125+08:00  INFO 52181 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:48:01.131+08:00  INFO 52181 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:48:01.131+08:00  INFO 52181 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:48:01.142+08:00  INFO 52181 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:48:01.142+08:00  INFO 52181 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 291 ms
+2025-07-23T13:48:01.362+08:00  INFO 52181 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:48:01.392+08:00  INFO 52181 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:48:01.393+08:00  INFO 52181 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:48:01.393+08:00  INFO 52181 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:48:01.393+08:00  INFO 52181 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:48:01.412+08:00  INFO 52181 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo, version=1.0.0]
+2025-07-23T13:48:01.414+08:00  WARN 52181 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:48:01.428+08:00  INFO 52095 --- [http-nio-9090-exec-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo-sse, version=1.0.0]
+2025-07-23T13:48:01.428+08:00  WARN 52095 --- [http-nio-9090-exec-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:48:01.432+08:00  WARN 52181 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-23T13:48:01.443+08:00  INFO 52181 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-23T13:48:01.449+08:00 ERROR 52181 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-23T13:48:02.507+08:00  INFO 52174 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T13:50:07.164+08:00  INFO 52095 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T13:50:21.910+08:00  INFO 52235 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 52235 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:50:21.911+08:00  INFO 52235 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:50:22.205+08:00  INFO 52235 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:50:22.211+08:00  INFO 52235 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:50:22.211+08:00  INFO 52235 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:50:22.220+08:00  INFO 52235 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:50:22.220+08:00  INFO 52235 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 292 ms
+2025-07-23T13:50:22.457+08:00  INFO 52235 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:50:22.489+08:00  INFO 52235 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:50:22.489+08:00  INFO 52235 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:50:22.490+08:00  INFO 52235 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:50:22.490+08:00  INFO 52235 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:50:22.508+08:00  INFO 52235 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=claude-ai, version=0.1.0]
+2025-07-23T13:50:22.509+08:00  WARN 52235 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-06-18, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:50:22.527+08:00  INFO 52235 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-23T13:50:22.533+08:00  INFO 52235 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Started SpringMcpServerDemoApplication in 0.783 seconds (process running for 0.94)
+2025-07-23T13:51:11.370+08:00  INFO 52299 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 52299 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:51:11.371+08:00  INFO 52299 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:51:11.798+08:00  INFO 52299 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:51:11.806+08:00  INFO 52299 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:51:11.806+08:00  INFO 52299 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:51:11.818+08:00  INFO 52299 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:51:11.818+08:00  INFO 52299 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 429 ms
+2025-07-23T13:51:12.131+08:00  INFO 52299 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:51:12.171+08:00  INFO 52299 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:51:12.171+08:00  INFO 52299 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:51:12.172+08:00  INFO 52299 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:51:12.172+08:00  INFO 52299 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:51:12.193+08:00  INFO 52299 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo, version=1.0.0]
+2025-07-23T13:51:12.195+08:00  WARN 52299 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:51:12.211+08:00  WARN 52299 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-23T13:51:12.225+08:00  INFO 52299 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-23T13:51:12.231+08:00 ERROR 52299 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-23T13:52:50.085+08:00  INFO 52235 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T13:52:50.492+08:00  INFO 52331 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication v0.0.1-SNAPSHOT using Java 24.0.1 with PID 52331 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/libs/spring-mcp-server-demo-0.0.1-SNAPSHOT.jar started by vinoddampuru in /)
+2025-07-23T13:52:50.493+08:00  INFO 52331 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:52:50.791+08:00  INFO 52331 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-23T13:52:50.797+08:00  INFO 52331 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:52:50.797+08:00  INFO 52331 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:52:50.806+08:00  INFO 52331 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:52:50.806+08:00  INFO 52331 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 298 ms
+2025-07-23T13:52:51.030+08:00  INFO 52331 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:52:51.059+08:00  INFO 52331 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:52:51.059+08:00  INFO 52331 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:52:51.060+08:00  INFO 52331 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:52:51.060+08:00  INFO 52331 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:52:51.077+08:00  INFO 52331 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=claude-ai, version=0.1.0]
+2025-07-23T13:52:51.078+08:00  WARN 52331 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-06-18, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:52:51.091+08:00  WARN 52331 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-23T13:52:51.097+08:00  INFO 52331 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-23T13:52:51.102+08:00 ERROR 52331 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-23T13:52:52.093+08:00  INFO 52235 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T13:53:28.847+08:00  INFO 52371 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication using Java 24.0.1 with PID 52371 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/classes/java/main started by vinoddampuru in /Users/vinoddampuru/Workspace/spring-mcp-server-demo)
+2025-07-23T13:53:28.848+08:00  INFO 52371 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T13:53:29.101+08:00  INFO 52371 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-07-23T13:53:29.105+08:00  INFO 52371 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T13:53:29.105+08:00  INFO 52371 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T13:53:29.118+08:00  INFO 52371 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T13:53:29.118+08:00  INFO 52371 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 255 ms
+2025-07-23T13:53:29.288+08:00  INFO 52371 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T13:53:29.313+08:00  INFO 52371 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T13:53:29.313+08:00  INFO 52371 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T13:53:29.313+08:00  INFO 52371 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T13:53:29.313+08:00  INFO 52371 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T13:53:29.336+08:00  INFO 52371 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-07-23T13:53:29.339+08:00  INFO 52371 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Started SpringMcpServerDemoApplication in 0.631 seconds (process running for 0.817)
+2025-07-23T13:53:35.845+08:00  INFO 52371 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-23T13:53:35.845+08:00  INFO 52371 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-23T13:53:35.846+08:00  INFO 52371 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-23T13:53:35.891+08:00  INFO 52371 --- [http-nio-9090-exec-3] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo-sse, version=1.0.0]
+2025-07-23T13:53:35.892+08:00  WARN 52371 --- [http-nio-9090-exec-3] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T13:55:37.141+08:00  INFO 52371 --- [http-nio-9090-exec-3] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo-sse, version=1.0.0]
+2025-07-23T13:55:37.141+08:00  WARN 52371 --- [http-nio-9090-exec-3] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T14:05:19.718+08:00  INFO 52371 --- [http-nio-9090-exec-6] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo-sse, version=1.0.0]
+2025-07-23T14:05:19.719+08:00  WARN 52371 --- [http-nio-9090-exec-6] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
+2025-07-23T14:18:36.020+08:00  INFO 52371 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T14:18:49.630+08:00  INFO 52688 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Starting SpringMcpServerDemoApplication using Java 24.0.1 with PID 52688 (/Users/vinoddampuru/Workspace/spring-mcp-server-demo/build/classes/java/main started by vinoddampuru in /Users/vinoddampuru/Workspace/spring-mcp-server-demo)
+2025-07-23T14:18:49.631+08:00  INFO 52688 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T14:18:49.902+08:00  INFO 52688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-07-23T14:18:49.907+08:00  INFO 52688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T14:18:49.908+08:00  INFO 52688 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T14:18:49.922+08:00  INFO 52688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T14:18:49.922+08:00  INFO 52688 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 279 ms
+2025-07-23T14:18:50.109+08:00  INFO 52688 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-23T14:18:50.137+08:00  INFO 52688 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 1
+2025-07-23T14:18:50.137+08:00  INFO 52688 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-23T14:18:50.137+08:00  INFO 52688 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-23T14:18:50.138+08:00  INFO 52688 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-23T14:18:50.161+08:00  INFO 52688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-07-23T14:18:50.164+08:00  INFO 52688 --- [main] c.d.m.s.d.SpringMcpServerDemoApplication : Started SpringMcpServerDemoApplication in 0.655 seconds (process running for 0.842)
+2025-07-23T14:18:50.266+08:00  INFO 52688 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-23T14:18:50.266+08:00  INFO 52688 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-23T14:18:50.267+08:00  INFO 52688 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-23T14:19:28.441+08:00  INFO 52688 --- [http-nio-9090-exec-6] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=null], Info: Implementation[name=spring-mcp-server-demo-sse, version=1.0.0]
+2025-07-23T14:19:28.442+08:00  WARN 52688 --- [http-nio-9090-exec-6] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-03-26, so the server will suggest the 2024-11-05 version instead
