@@ -73,17 +73,17 @@ module "mcp_service" {
       from_port   = 8080
       to_port     = 8080
       protocol    = "TCP"
-      cidr_ipv4 = "0.0.0.0/0"
+      cidr_ipv4   = "0.0.0.0/0"
       description = "Allow traffic on ingress 8080"
     }
   }
 
   security_group_egress_rules = {
     egress_all = {
-      type        = "egress"
-      from_port   = 0
-      to_port     = 0
-      protocol    = "-1"
+      type      = "egress"
+      from_port = 0
+      to_port   = 0
+      protocol  = "-1"
       cidr_ipv4 = "0.0.0.0/0"
     }
   }
