@@ -12,11 +12,9 @@ module "ecs" {
     }
   }
 
-  fargate_capacity_providers = {
+  default_capacity_provider_strategy = {
     FARGATE_SPOT = {
-      default_capacity_provider_strategy = {
-        weight = 100
-      }
+      weight = 100
     }
   }
 
@@ -69,7 +67,7 @@ module "mcp_service" {
 
   subnet_ids = module.spring_mcp_server_vpc.private_subnets
 
-  security_group_rules = {
+  security_group_ingress_rules = {
     ingress_port_8080 = {
       type        = "ingress"
       from_port   = 8080
@@ -78,6 +76,9 @@ module "mcp_service" {
       cidr_blocks = ["0.0.0.0/0"]
       description = "Allow traffic on ingress 8080"
     }
+  }
+
+  security_group_egress_rules = {
     egress_all = {
       type        = "egress"
       from_port   = 0
