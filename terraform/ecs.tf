@@ -62,7 +62,7 @@ module "mcp_service" {
       ]
 
       healthCheck = {
-        command     = ["CMD-SHELL", "curl -f http://localhost:8080/actuator/health || exit 1"]
+        command      = ["CMD-SHELL", "curl -f http://localhost:8080/actuator/health || exit 1"]
         start_period = 10
       }
 
