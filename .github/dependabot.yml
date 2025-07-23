@@ -21,7 +21,7 @@ updates:
       interval: "weekly"
       day: friday
   - package-ecosystem: "terraform"
-    directory: "/" # Location of package manifests
+    directory: "/terraform" # Location of package manifests
     schedule:
       interval: "weekly"
       day: friday
