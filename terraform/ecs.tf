@@ -42,7 +42,7 @@ module "mcp_service" {
   task_exec_iam_statements  = local.task_exec_iam_statements
 
   container_definitions = {
-    demo_service = {
+    mcp_server = {
       cpu       = 256
       memory    = 512
       essential = true
