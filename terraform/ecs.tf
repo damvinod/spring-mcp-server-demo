@@ -82,8 +82,8 @@ module "mcp_service" {
   security_group_egress_rules = {
     egress_all = {
       type      = "egress"
-      from_port = 0
-      to_port   = 0
+      from_port = 443
+      to_port   = 443
       protocol  = "-1"
       cidr_ipv4 = "0.0.0.0/0"
     }
