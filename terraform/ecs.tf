@@ -73,7 +73,7 @@ module "mcp_service" {
       from_port   = 8080
       to_port     = 8080
       protocol    = "TCP"
-      cidr_blocks = ["0.0.0.0/0"]
+      cidr_ipv4 = "0.0.0.0/0"
       description = "Allow traffic on ingress 8080"
     }
   }
@@ -84,7 +84,7 @@ module "mcp_service" {
       from_port   = 0
       to_port     = 0
       protocol    = "-1"
-      cidr_blocks = ["0.0.0.0/0"]
+      cidr_ipv4 = "0.0.0.0/0"
     }
   }
 
