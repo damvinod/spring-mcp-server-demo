@@ -1,4 +1,4 @@
-FROM gradle:8.14.3-jdk24-alpine as build
+FROM gradle:9.0.0-jdk24-alpine as build
 
 ARG GRADLE_CI_FLAGS=""
 ENV GRADLE_OPTS="-Xms64m -Xmx192m -Dorg.gradle.daemon=false"
